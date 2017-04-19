@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bower": "bower"
+  },
+  "author": "gerardosoriano97@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}
