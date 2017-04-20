@@ -10,6 +10,7 @@ div[class^="menu"]{
   align-content: flex-start;
   padding: 5px;
   position: relative;
+  z-index: 1;
   >div.logo{
     width: 100%;
     height: 100px;

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bower": "bower"
+    "bower": "bower",
+    "build": "webpack"
   },
   "author": "gerardosoriano97@gmail.com",
   "license": "ISC",
