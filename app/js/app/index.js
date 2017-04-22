@@ -35,4 +35,10 @@ $(document).ready(function(){
     }
   ]
   });
+  $('div.receipt>i[role="button"]').on("click",function(){
+    $('body>div[class^="modal"]').toggleClass('modal-hide modal-show');
+  });
+  $('div.modalReceipt>div.exit').on("click",function(){
+    $('body>div[class^="modal"]').toggleClass('modal-hide modal-show');
+  });
 });
