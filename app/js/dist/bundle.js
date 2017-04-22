@@ -82,10 +82,9 @@ $(document).ready(function(){
     slidesToShow: 1,
     adaptiveHeight: true
   });
-  $('div.categoria>div.section>div.products').slick({
+  $('div.products').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
     {
