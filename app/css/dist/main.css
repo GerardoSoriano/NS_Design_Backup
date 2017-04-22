@@ -1095,4 +1095,87 @@ div.modalReceipt > div.total button[name="receipt"] {
   padding: 5px 15px;
 }
 
+div.plugin {
+  width: 100%;
+  padding: 18px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.plugin > div.section {
+  width: 300px;
+  min-width: 300px;
+  border-top: 2px solid #0c0f38;
+  margin: 10px 0 18px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 1572px) {
+  div.plugin > div.section {
+    max-width: 1254px;
+    min-width: 1254px;
+  }
+}
+@media (min-width: 1254px) and (max-width: 1571px) {
+  div.plugin > div.section {
+    max-width: 936px;
+    min-width: 936px;
+  }
+}
+@media (min-width: 936px) and (max-width: 1253px) {
+  div.plugin > div.section {
+    max-width: 618px;
+    min-width: 618px;
+  }
+}
+@media (min-width: 618px) and (max-width: 935px) {
+  div.plugin > div.section {
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
+@media (min-width: 300px) and (max-width: 617px) {
+  div.plugin > div.section {
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
+div.plugin > div.section > label {
+  background-color: white;
+  font: bold 25px "Century Gothic";
+  margin: 0;
+  transform: translateY(-60%);
+  padding-right: 10px;
+  position: absolute;
+}
+div.plugin > div.section > div.card {
+  margin-top: 18px;
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+div.plugin > div.section > div.card > button[name="add"] {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0c0f38;
+  font: bold 20px "Century Gothic";
+  color: white;
+  padding: 5px 15px;
+  margin-bottom: 18px;
+}
+div.plugin > div.section > div.card > div.tree {
+  background: radial-gradient(circle, #171e6e, #0c0f38);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold 30px "Century Gothic";
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
