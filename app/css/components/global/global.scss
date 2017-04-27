@@ -3,6 +3,12 @@ body{
   flex-wrap: wrap;
   box-sizing: border-box;
   margin: 0;
+  &#loginRegister{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
   *{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
   }
